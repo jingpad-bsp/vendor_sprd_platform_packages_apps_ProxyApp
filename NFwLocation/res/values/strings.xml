@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Carrier Location</string>
+    <string name="textViewAppInfo"></string>
+    <!--
+      - The main screen (and the only one for this app) displays the text to the user regarding
+      - device's location access by Non-Android entities outside the Android framework control.
+      - Each string-array item denotes a separate paragraph.
+    -->
+    <string-array name="textViewAppInfo_Paragraphs">
+        <item>"This app allows you to give your carrier access to your device's location. The carrier can use this information for any purpose. To give the carrier access:\n\n"</item>
+        <item>"    1. On the Location setting screen, turn on Use location.\n\n"</item>
+        <item>"    2. On the "Carrier Location" app screen, tap Allow all the time. (This app requires this level of access to work).\n\n"</item>
+        <item>"Note: Your carrier can access your device's location when you dial or text an emergency number and for a limited time afterward, even if you turn off the location setting and deny location permission for this app.\n\n"</item>
+        <item><a href="location_attribution_app://learn_more">Learn more</a>\n</item>
+    </string-array>
+    <!-- NOTE: Replace this link with the actual link to your Non-Android service's help web page -->
+    <string name="urlLearnMore" translatable="false">https://support.oem-name-here.com/path/doc</string>
+    <string name="buttonModifyLocationSettings">Modify app location permission</string>
+</resources>
